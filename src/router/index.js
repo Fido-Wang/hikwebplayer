@@ -4,6 +4,8 @@ import hikWebPlayer from './../components/hikWebPlayer/index.vue'
 import mapEdit from './../components/mapEdit/index.vue'
 import mapPoi from './../components/mapEdit/mapPoi.vue'
 import position from './../components/PositionGet/index.vue'
+import visualScreen from './../components/VisualScreen/index.vue'
+import ProjectSteps from './../components/VisualScreen/ProjectSteps/index.vue'
 
 Vue.use(Router)
 
@@ -34,5 +36,15 @@ export default new Router({
       name: 'position',
       component: position
     },
+    {
+      path: '/visualScreen',
+      name: 'visualScreen',
+      component: visualScreen
+    },
+    {
+      path: '/ProjectSteps',
+      name: 'ProjectSteps',
+      component: ProjectSteps
+    }
   ]
 })

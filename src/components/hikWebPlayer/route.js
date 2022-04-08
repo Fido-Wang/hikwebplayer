@@ -2,7 +2,7 @@
 //     path:'hikWebPlayer',
 //     name:'hikWebPlayer',
 //     component: ()=> {
-//         import './index.vue'
+//         import './echart1.vue'
 //     }
 // }
 // export default route
