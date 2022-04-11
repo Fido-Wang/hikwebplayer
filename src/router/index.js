@@ -6,6 +6,8 @@ import mapPoi from './../components/mapEdit/mapPoi.vue'
 import position from './../components/PositionGet/index.vue'
 import visualScreen from './../components/VisualScreen/index.vue'
 import ProjectSteps from './../components/VisualScreen/ProjectSteps/index.vue'
+import picviewer from './../components/PicViewer/index.vue'
+import progres from './../components/ProgressSteps/index.vue'
 
 Vue.use(Router)
 
@@ -45,6 +47,16 @@ export default new Router({
       path: '/ProjectSteps',
       name: 'ProjectSteps',
       component: ProjectSteps
-    }
+    },
+    {
+      path: '/picviewer',
+      name: 'picviewer',
+      component: picviewer
+    },
+    {
+      path: '/progres',
+      name: 'progres',
+      component: progres
+    },
   ]
 })

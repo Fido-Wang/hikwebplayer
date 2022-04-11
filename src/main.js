@@ -6,8 +6,11 @@ import router from './router'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css';
 
-Vue.use(ElementUI, { size: 'small', zIndex: 3000}); // size 用于改变组件的默认尺寸，zIndex 设置弹框的初始 z-index（默认值：2000）
+import Viewer from 'viewer'
+import 'viewerjs/dist/viewer.css'
 
+Vue.use(ElementUI, { size: 'small', zIndex: 3000}); // size 用于改变组件的默认尺寸，zIndex 设置弹框的初始 z-index（默认值：2000）
+Vue.use(Viewer)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
